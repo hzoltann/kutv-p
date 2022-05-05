@@ -1,0 +1,13 @@
+.page-center {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 60px;
+  bottom: 60px;
+}

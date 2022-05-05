@@ -1,0 +1,9 @@
+body,
+html {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.1em;
+  padding-top: 35px;
+}
