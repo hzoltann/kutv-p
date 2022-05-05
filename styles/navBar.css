@@ -3,20 +3,18 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: var(--backg-color);
-  color: white;
   z-index: 100;
 }
 
 .nav-container {
   display: flex;
-  /* position: fixed; */
   justify-content: space-around;
   align-items: center;
-  top: 0;
-  left: 0;
-  right: 0;
   padding: 0px 20px;
+  background-color: var(--backg-color);
+
+  color: white;
+  max-height: 60px;
 }
 
 .nav-elements ul {
@@ -33,6 +31,7 @@
   margin: 0px 10px;
   color: white;
   transition: all ease-in-out 0.2s;
+  font-size: 2em;
 }
 
 .nav-elements ul li:hover {
@@ -48,6 +47,14 @@
   font-weight: bold;
   transition: all ease-in-out 0.2s;
   font-size: 0.8em;
+}
+.sign-up-nav {
+  font-size: 1.4em;
+  align-self: center;
+  /* border: 1px solid red; */
+}
+.sign-up-nav:hover {
+  background-color: red;
 }
 
 .sign-up-btn:hover {

@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   /* border: 2px solid red; */
-  min-height: 100vh;
+  min-height: 95vh;
 }
 
 .timer-container {
@@ -25,11 +25,11 @@
   background-color: rgba(0, 0, 0, 0.084);
 }
 .hero-title {
-  font-size: 1.5em;
+  font-size: 5em;
   text-align: center;
 }
 .hero-description {
-  font-size: 1.1em;
+  font-size: 3em;
   text-align: center;
   margin: 5px 0px 15px 0px;
 }
@@ -60,4 +60,25 @@
 .card-1 img {
   max-width: 500px;
   height: 450px;
+}
+
+.hero-text-container {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.art-one button {
+  font-size: 2em;
+  margin-top: 15px;
+}
+
+.time {
+  text-align: center;
+  padding: 0px 100px;
+  font-size: 1.4em;
 }
