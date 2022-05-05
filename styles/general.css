@@ -3,13 +3,16 @@
   --btn-text-color: #0d0d0d;
   --backg-color: #090909;
 }
-
-body,
 html {
+  overflow-x: hidden;
+}
+
+body {
   box-sizing: border-box;
   border: 0;
   margin: 0;
   font-family: "Bebas Neue", cursive;
-  font-size: 1.1em;
-  padding-top: 35px;
+  font-size: 2em;
+  padding-top: 103px;
+  position: relative;
 }

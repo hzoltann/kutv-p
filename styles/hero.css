@@ -1,12 +1,8 @@
 .art-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: grid;
   grid-template-columns: 1fr;
-  position: absolute;
-  top: 60px;
-  bottom: 60px;
-  left: 0;
-  right: 0;
+  position: relative;
 }
 
 .art-one {
@@ -14,18 +10,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  min-height: 100vh;
 }
 
 .timer-container {
   /* border: 2px solid red; */
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 2000px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.084);
 }
 .hero-title {
   font-size: 1.5em;
@@ -36,31 +33,31 @@
   text-align: center;
   margin: 5px 0px 15px 0px;
 }
-.img-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  border: 2px solid rebeccapurple;
-  justify-content: center;
-  align-items: center;
+
+.card-container {
+  min-height: 100vh;
 }
 
-@media screen and (max-width: 720px) {
-  .img-container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
-
-.grid-item {
+.card-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  border: 2px solid blue;
-  margin: 20px;
+  flex-wrap: wrap;
+  width: 100%;
 }
-.grid-item img {
-  width: 400px;
-  height: 400px;
-  object-fit: contain;
-  object-position: center;
+
+.card-1 {
+  position: relative;
+  flex: 1;
+  max-width: 600px;
+  height: 450px;
+  text-align: center;
+  background-color: white;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+}
+.card-1 img {
+  max-width: 500px;
+  height: 450px;
 }

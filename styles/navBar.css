@@ -5,6 +5,7 @@
   right: 0;
   background-color: var(--backg-color);
   color: white;
+  z-index: 100;
 }
 
 .nav-container {
@@ -41,11 +42,12 @@
 .sign-up-btn {
   background-color: #01b768;
   border: 1px solid var(--main-color);
-  padding: 5px 10px;
+  padding: 7px 14px;
   border-radius: 30px;
   color: var(--btn-text-color);
   font-weight: bold;
   transition: all ease-in-out 0.2s;
+  font-size: 0.8em;
 }
 
 .sign-up-btn:hover {
@@ -53,4 +55,9 @@
   background-color: white;
   border: 1px solid var(--main-color);
   font-weight: bolder;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
 }
