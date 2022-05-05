@@ -1,3 +1,9 @@
+:root {
+  --main-color: #01b768;
+  --btn-text-color: #0d0d0d;
+  --backg-color: #090909;
+}
+
 body,
 html {
   box-sizing: border-box;
