@@ -5,6 +5,7 @@
 }
 html {
   overflow-x: hidden;
+  /* width: 100vh; */
 }
 
 body,
@@ -16,7 +17,4 @@ html {
   font-size: 1em;
   height: 100%;
   /* padding-top: 20px; */
-}
-body {
-  padding-top: 60px;
 }
