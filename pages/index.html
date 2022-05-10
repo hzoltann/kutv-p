@@ -23,17 +23,30 @@
   </head>
   <body>
     <header class="header-container">
-      <nav class="nav-container">
-        <div class="logo"><a href="./index.html">KÜTV</a></div>
-        <div class="nav-elements">
-          <ul>
-            <a href="./index.html"><li>Kezdőoldal</li></a>
-            <a href="./hirek.html"><li>Hírek</li></a>
-            <a href="./versenyszabalyzat.html"><li>Versenyszabályzat</li></a>
-            <a href="./gyik.html"><li>GYIK</li></a>
-          </ul>
+      <nav class="nav-bar">
+        <div class="logo">
+          <a href="./index.html">KÜTV</a>
         </div>
-        <button class="sign-up-btn">Iratkozz Fel</button>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="./index.html">Kezdőoldal</a>
+          </li>
+          <li class="nav-item">
+            <a href="./hirek.html">Hírek</a>
+          </li>
+          <li class="nav-item">
+            <a href="./versenyszabalyzat.html">Versenyszabályzat</a>
+          </li>
+          <li class="nav-item">
+            <a href="./gyik.html">GYIK</a>
+          </li>
+        </ul>
+        <button class="sign-up-btn nav-btn">Iratkozz Fel</button>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
 
@@ -96,5 +109,6 @@
     </footer>
 
     <script src="../scripts/timer.js"></script>
+    <script src="../scripts/nav-menu.js"></script>
   </body>
 </html>
