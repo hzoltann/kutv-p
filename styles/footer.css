@@ -1,3 +1,7 @@
+.footer-c {
+  border: 2px solid red;
+}
+
 .footer-container {
   background-color: var(--backg-color);
   color: white;

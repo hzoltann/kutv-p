@@ -6,6 +6,9 @@
 html {
   overflow-x: hidden;
 }
+body {
+  margin-top: 20px;
+}
 
 body,
 html {
@@ -16,9 +19,17 @@ html {
   font-size: 1em;
   height: 100%;
   width: 100%;
-  /* padding-top: 20px; */
+  position: relative;
+  /* padding-top: 70px; */
 }
 /* 
 * {
   outline: solid 1px red;
+} */
+
+/* .all-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 } */
