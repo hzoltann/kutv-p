@@ -1,6 +1,7 @@
-.footer-c {
-  /* border: 2px solid red; */
-}
+/* .footer-c {
+  position: absolute;
+  bottom: 0;
+} */
 
 .footer-container {
   background-color: var(--backg-color);
@@ -17,7 +18,7 @@
 }
 
 .contact-text {
-  font-size: 1.8em;
+  font-size: 2vw;
   transition: all ease-in-out 0.3s;
 }
 .contact-text:hover {

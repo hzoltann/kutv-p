@@ -1,9 +1,12 @@
 .art-container {
   border: 2px solid red;
   margin-bottom: 200px;
+  height: 80vh;
 }
 
 .all-news-container {
+  border: 3px solid green;
+  padding: 0px 25vw;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr));
 }
@@ -16,11 +19,12 @@
   max-width: 100%;
   margin: 1rem;
   box-shadow: 1px 0 0 10px rgba(0, 0, 0, 1px);
+  padding: 10px;
 }
 
 .news-img {
   width: 100%;
-  max-height: 20rem;
+  max-height: 20em;
   /* background-color: aqua; */
 }
 .news-text-container {
@@ -36,4 +40,25 @@
   font-weight: bold;
   border-radius: 20px;
   cursor: pointer;
+}
+
+body {
+  min-height: 100%;
+}
+
+.footer-c {
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .contact-text {
+    padding-top: 2vw;
+    font-size: 4vw;
+  }
+
+  .footer-container {
+    height: 20vw;
+  }
 }
